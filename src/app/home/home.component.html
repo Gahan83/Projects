@@ -1,0 +1,203 @@
+<html>
+  <head>
+    <title>University Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <body>
+      <section class="header">
+        <nav>
+          <a href="#"><img src="../../assets/logo.png" alt=""></a>
+          <div class="nav-links" id="navLinks" >
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a >HOME</a></li>
+              <li><a [routerLink]="['/about']">ABOUT</a></li>
+              <li><a [routerLink]="['/course']">COURSE</a></li>
+              <li><a [routerLink]="['/blog']">BLOG</a></li>
+              <li><a [routerLink]="['/contact']">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+          <h1>World's Biggest University</h1>
+          <p>Making website is now one the easiest thing in world. You
+            need to just learn HTML, CSS, <br> Javascript and you are good to go.
+          </p>
+          <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+      </section>
+
+      <!-- ------Course-------- -->
+
+      <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>The function of a paragraph is to mark a pause,
+               setting the paragraph apart from what precedes it. If a paragraph is preceded by a title or subhead,
+                the indent is superfluous and
+                can therefore be omitted
+              </p>
+          </div>
+          <div class="course-col">
+            <h3>Degree</h3>
+            <p>The function of a paragraph is to mark a pause,
+               setting the paragraph apart from what precedes it. If a paragraph is preceded by a title or subhead,
+                the indent is superfluous and
+                can therefore be omitted
+              </p>
+          </div>
+          <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>The function of a paragraph is to mark a pause,
+               setting the paragraph apart from what precedes it. If a paragraph is preceded by a title or subhead,
+                the indent is superfluous and can therefore be omitted
+              </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ----Campus---- -->
+
+      <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="campus-col">
+            <img src="../assets/london.png" >
+            <div class="layer">
+              <h3>LONDON</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="../../assets/newyork.png" >
+            <div class="layer">
+              <h3>NEW YORK</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="../../assets/washington.png" >
+            <div class="layer">
+              <h3>WASHINGTON</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <!-- --------Facilites----- -->
+
+      <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="facilities-col">
+            <img src="../../assets/library.png">
+            <h3>World Class library</h3>
+            <p>The function of a paragraph is to mark a pause, setting the paragraph apart from what precedes it.
+              If a paragraph is preceded by a title or subhead.
+            </p>
+          </div>
+          <div class="facilities-col">
+            <img src="../../assets/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>The function of a paragraph is to mark a pause, setting the paragraph apart from what precedes it.
+              If a paragraph is preceded by a title or subhead.
+            </p>
+          </div>
+
+          <div class="facilities-col">
+            <img src="../../assets/cafeteria.png">
+            <h3>Tasty & Healthy Food</h3>
+            <p>The function of a paragraph is to mark a pause, setting the paragraph apart from what precedes it.
+              If a paragraph is preceded by a title or subhead.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----Testimonials----- -->
+      <section class="testimonials">
+        <h1>What Our Student Says</h1>
+            <p>The function of a paragraph is to mark a pause, setting the paragraph apart from what precedes it.
+              If a paragraph is preceded by a title or subhead.
+            </p>
+
+            <div class="row">
+              <div class="testimonials-col">
+                <img src="../../assets/user1.jpg">
+                <div>
+                  <p>he function of a paragraph is to mark a pause,setting the paragraph apart
+                     from what precedes it. If a paragraph is preceded by a title or subhead,
+                     the indent is superfluous and can therefore be omitted</p>
+                     <h3>Sanjay</h3>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-o"></i>
+                </div>
+              </div>
+              <div class="testimonials-col">
+                <img src="../../assets/user2.jpg">
+                <div>
+                  <p>he function of a paragraph is to mark a pause,setting the paragraph apart
+                     from what precedes it. If a paragraph is preceded by a title or subhead,
+                     the indent is superfluous and can therefore be omitted</p>
+                     <h3>Gajan</h3>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-half-o"></i>
+                </div>
+              </div>
+            </div>
+      </section>
+
+      <!-- -----Call To Action----- -->
+      <section class="cta">
+        <h1>Enroll For Our Various Online Courses <br> Anywhere From The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+      </section>
+
+      <!-- -----Footer----- -->
+
+      <section class="footer">
+        <h4>About Us</h4>
+        <p>He function of a paragraph is to mark a pause,setting the paragraph apart
+          from what precedes it. If a paragraph is preceded by a title or subhead,<br>
+          the indent is superfluous and can therefore be omitted</p>
+          <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <p>Made with<i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+          </div>
+      </section>
+
+
+
+
+
+
+     <!-- ------- Javascript for toogle menu --------- -->
+      <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+          navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+          navLinks.style.right="-200";
+        }
+      </script>
+    </body>
+</html>
